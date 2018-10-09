@@ -1,0 +1,32 @@
+{
+  "name": "mdast-util-to-vdom",
+  "version": "0.0.1",
+  "description": "Compile mdast to Virtual DOM",
+  "scripts": {
+    "pub": "npm publish ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmarkdown/mdast-util-to-vdom.git"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "mdast",
+    "vdom"
+  ],
+  "main": "index.js",
+  "author": "yucopowo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmarkdown/mdast-util-to-vdom/issues"
+  },
+  "homepage": "https://github.com/vmarkdown/mdast-util-to-vdom#readme",
+  "devDependencies": {
+    "preact": "^8.3.1",
+    "remark-parse": "^5.0.0",
+    "remark-preact-renderer": "^0.0.6",
+    "unified": "^7.0.0"
+  },
+  "dependencies": {}
+}
